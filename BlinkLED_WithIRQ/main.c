@@ -41,7 +41,6 @@ void main() {
 
   millis_setup();
 
-  INTRQ = 0;
   __engint();                     // Enable global interrupts
 
   // Main processing loop

@@ -36,7 +36,6 @@ void main() {
 
   serial_setup();                 // Initialize Serial engine
 
-  INTRQ = 0;
   __engint();                     // Enable global interrupts
 
   // Main processing loop

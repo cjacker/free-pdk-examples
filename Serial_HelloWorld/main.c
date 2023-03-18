@@ -24,12 +24,13 @@ void main() {
   // Initialize hardware
   serial_setup();                 // Initialize Serial engine
 
-  INTRQ = 0;
   __engint();                     // Enable global interrupts
 
   // Main processing loop
   while (1) {
     serial_println("Hello World!");
+    // or use printf
+    // printf("Hello World!");
     _delay_ms(1000);
   }
 }
