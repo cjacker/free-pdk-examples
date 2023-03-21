@@ -1,8 +1,12 @@
 
 DEVICE = PFS154
 F_CPU = 8000000
+# For PFS154
 TARGET_VDD_MV = 4000
 TARGET_VDD = 4.0
+# For PFS173/PFS173B/PFS123
+#TARGET_VDD_MV = 3300 
+#TARGET_VDD = 3.3
 
 # ---------------------------------------------------------------------
 
