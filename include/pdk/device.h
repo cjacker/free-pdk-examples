@@ -31,8 +31,16 @@
   #include "device/pfs154.h"
 #elif defined(PFS172)
   #include "device/pfs172.h"
+#elif defined(PFS172B)
+  #include "device/pfs172.h"
+#elif defined(PFS122)
+  #include "device/pfs122.h"
 #elif defined(PFS173)
   #include "device/pfs173.h"
+#elif defined(PFS173B)
+  #include "device/pfs173.h"
+#elif defined(PFS123)
+  #include "device/pfs123.h"
 #elif defined(PMS131)
   #include "device/pms131.h"
 #elif defined(PMS150C)
